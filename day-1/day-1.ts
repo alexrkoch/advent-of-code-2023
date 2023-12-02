@@ -1,6 +1,6 @@
-import input from "./input.txt";
+import day1Input from "./input.txt";
 
-export function main(input: string): number {
+export function part1(input: string): number {
 	let total = 0;
 	const lines = input.split("\n");
 	for (const line of lines) {
@@ -22,4 +22,4 @@ export function main(input: string): number {
 	return total;
 }
 
-console.log(main(input)); //53194
+console.log(part1(day1Input)); //53194
